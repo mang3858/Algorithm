@@ -1,0 +1,30 @@
+# === 기본 Java 빌드 무시 ===
+*.class
+*.log
+*.jar
+*.war
+*.ear
+
+# === Maven / Gradle 빌드 무시 ===
+/target/
+/build/
+
+# === Eclipse 관련 무시 ===
+*.prefs
+*.classpath
+*.project
+.settings/
+.metadata/
+
+# === IDE 설정 무시 ===
+.vscode/
+.idea/
+*.iml
+
+# === OS 임시 파일 무시 ===
+.DS_Store
+Thumbs.db
+
+# === 테스트용 무시 예시 ===
+*.bak
+*.swp
